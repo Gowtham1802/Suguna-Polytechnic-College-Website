@@ -12,9 +12,9 @@ import { IoIosArrowForward } from "react-icons/io";
 const FooterPage = () => {
   return (
     <div>
-      <div className="w-full h-[35rem] bg-black flex flex-col justify-start">
+      <div className="w-full bg-black flex flex-col justify-start">
         <div className="w-full flex flex-row justify-start">
-          <div className="w-[28%] flex flex-col gap-8 p-[5rem] items-center">
+          <div className="w-[28%] flex flex-col gap-8 px-[5rem] pt-[5rem] pb-[0rem] items-center">
             <div className="flex flex-row gap-2 items-center">
               <img
                 className="w-20 h-20 rounded-full"
@@ -46,91 +46,91 @@ const FooterPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[23%] p-[5rem]">
-            <h1 className="text-white text-[2rem] font-bold pb-3">
+          <div className="w-[23%] p-[5rem] pt-[4rem] pb-[3rem] ">
+            <h1 className="text-white text-[2rem] font-bold pb-2">
               Quick Links
             </h1>
             <ul className="text-white text-[20px]  ">
-              <li className=" hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className=" hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>About Us
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Awards
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Facilities
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Departments
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Anti-Ragging Committee
                 </a>
               </li>
             </ul>
           </div>
-          <div className="w-[24%] p-[5.5rem]">
+          <div className="w-[24%] p-[5.5rem] pt-[5rem] pb-[3rem]">
             <ul className="text-white text-[20px] ">
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Admission
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 {" "}
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Scholarship
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Our Recruiters
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Placements
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Photo Gallery
                 </a>
               </li>
             </ul>
           </div>
-          <div className="w-[25%] p-[5rem]">
-            <h1 className="text-[white] text-[2rem] font-bold pb-3">
+          <div className="w-[25%] p-[3rem] pt-[4rem] pb-[3rem]">
+            <h1 className="text-[white] text-[2rem] font-bold pb-2">
               Our Institutions
             </h1>
             <ul className="text-[white] text-[20px]">
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Suguna College of Arts
                   and Science
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Suguna College of
                   Engineering
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Suguna PIP School
                 </a>
               </li>
-              <li className="hover:text-[#ff9637] cursor-pointer pb-3">
+              <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
                   <IoIosArrowForward></IoIosArrowForward>Suguna Innovation
                   Institute
@@ -139,40 +139,44 @@ const FooterPage = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full flex flex-row justify-between items-center ">
-          <div className="flex items-center gap-2 ">
-            <IoCall className="text-[red]  text-[3rem]"></IoCall>
+        <div className="w-full flex flex-row justify-evenly items-center pb-[7rem]">
+          <div className="flex justify-around items-center gap-2  ">
+            <IoCall className="text-[#ff9637] text-[3rem]"></IoCall>
             <div>
-              <span className="text-[red] text-[1rem]">8870008623</span>
+              <span className="text-[white] text-[20px]">+91 8870008623</span>
               <br />
-              <span className="text-[red]">9600860934</span>
+              <span className="text-[white] text-[20px]">+91 9600860934</span>
             </div>
           </div>
-          <div className="w-full flex items-center gap-2 ">
+          <div className=" flex items-center gap-2 ">
             <div className="flex items-center gap-2">
-              <MdEmail className="text-[red] text-[3rem]"></MdEmail>
+              <MdEmail className="text-[#ff9637] text-[3rem] "></MdEmail>
               <div>
-                <span className="text-[red] ">
+                <span className="text-[white] text-[20px] ">
                   sugunapolytechniccollege@gmail.com
                 </span>
               </div>
             </div>
-
-            <div className="flex items-center gap-2">
-              <a href="https://www.google.com/maps/place/Suguna+Polytechnic+College/@11.0509439,77.0322591,15z/data=!4m6!3m5!1s0x3ba857bbffffffff:0xfaed96bd33545bc0!8m2!3d11.0509439!4d77.0322591!16s%2Fg%2F1tl7m4b8?entry=ttu">
-                <FaLocationDot className="text-[red] text-[3rem]"></FaLocationDot>
-              </a>
-              <div>
-                <span className="text-[red] font-bold">
-                  Kalapatti Main Rd, near Vinayaka Temple, GKD Nagar,
-                </span>
-                <br />
-                <span className="text-[red]">
-                  Nehru Nagar West, Coimbatore, Tamil Nadu - 641014
-                </span>
-              </div>
+          </div>
+          <div className="flex  items-center gap-2">
+            <a href="https://www.google.com/maps/place/Suguna+Polytechnic+College/@11.0509439,77.0322591,15z/data=!4m6!3m5!1s0x3ba857bbffffffff:0xfaed96bd33545bc0!8m2!3d11.0509439!4d77.0322591!16s%2Fg%2F1tl7m4b8?entry=ttu">
+              <FaLocationDot className="text-[#ff9637] text-[3rem]"></FaLocationDot>
+            </a>
+            <div className="items-center">
+              <span className="text-[white] font-bold text-[20px]">
+                Kalapatti Main Rd, near Vinayaka Temple, GKD Nagar,
+              </span>
+              <br />
+              <span className="text-[white] text-[20px]">
+                Nehru Nagar West, Coimbatore, Tamil Nadu - 641014
+              </span>
             </div>
           </div>
+        </div>
+        <div className="flex items-center text-center">
+          <span className="text-[white] flex items-center">
+            Copyright © 2023 Suguna Polytechnic College
+          </span>
         </div>
       </div>
     </div>
