@@ -174,7 +174,7 @@ const FooterPage = () => {
           </div>
         </div>
         <div className="w-full items-center text-center pt-[rem] pb-[3rem]">
-          <span className="text-[white] text-center items-center ">
+          <span className="text-[#979696] text-center items-center text-[20px]">
             Copyright © 2023 Suguna Polytechnic College
           </span>
         </div>
