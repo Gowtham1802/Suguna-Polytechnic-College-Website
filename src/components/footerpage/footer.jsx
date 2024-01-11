@@ -52,27 +52,42 @@ const FooterPage = () => {
             </h1>
             <ul className="text-white text-[20px]  ">
               <li className=" hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>About Us
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Awards
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Facilities
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Departments
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Anti-Ragging Committee
                 </a>
               </li>
@@ -81,28 +96,43 @@ const FooterPage = () => {
           <div className="w-[24%] p-[5.5rem] pt-[7rem] pb-[3rem]">
             <ul className="text-white text-[20px] ">
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Admission
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 {" "}
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Scholarship
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Our Recruiters
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Placements
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Photo Gallery
                 </a>
               </li>
@@ -114,24 +144,36 @@ const FooterPage = () => {
             </h1>
             <ul className="text-[white] text-[20px]">
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Suguna College of Arts
                   and Science
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Suguna College of
                   Engineering
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Suguna PIP School
                 </a>
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
-                <a className="flex items-center gap-2" href="">
+                <a
+                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  href=""
+                >
                   <IoIosArrowForward></IoIosArrowForward>Suguna Innovation
                   Institute
                 </a>
