@@ -78,7 +78,7 @@ const FooterPage = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[24%] p-[5.5rem] pt-[5rem] pb-[3rem]">
+          <div className="w-[24%] p-[5.5rem] pt-[7rem] pb-[3rem]">
             <ul className="text-white text-[20px] ">
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a className="flex items-center gap-2" href="">
@@ -173,8 +173,8 @@ const FooterPage = () => {
             </div>
           </div>
         </div>
-        <div className="flex items-center text-center">
-          <span className="text-[white] flex items-center">
+        <div className="w-full items-center text-center pt-[rem] pb-[3rem]">
+          <span className="text-[white] text-center items-center ">
             Copyright © 2023 Suguna Polytechnic College
           </span>
         </div>
