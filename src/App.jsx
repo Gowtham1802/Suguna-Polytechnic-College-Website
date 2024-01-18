@@ -7,10 +7,10 @@ function App() {
   return (
     <>
       <div>
-        {/* <FooterPage></FooterPage> */}
+        <ContactPage></ContactPage>
       </div>
       <div>
-        <ContactPage></ContactPage>
+        <FooterPage></FooterPage>
       </div>
     </>
   );

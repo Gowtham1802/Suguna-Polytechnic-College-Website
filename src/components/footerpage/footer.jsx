@@ -13,9 +13,9 @@ const FooterPage = () => {
   return (
     <div>
       <div className="w-full bg-black flex flex-col justify-start">
-        <div className="w-full flex flex-row justify-start">
-          <div className="w-[28%] flex flex-col gap-8 px-[5rem] pt-[5rem] pb-[0rem] items-center">
-            <div className="flex flex-row gap-2 items-center">
+        <div className="w-full flex flex-row justify-start sm:flex-col sm:justify-center lg:w-full lg:flex-row lg:justify-start ">
+          <div className="w-[28%] flex flex-col gap-8 px-[5rem] pt-[5rem] pb-[0rem] items-center sm:w-[100%]">
+            <div className="flex flex-row gap-2 items-center sm:items-center">
               <img
                 className="w-20 h-20 rounded-full"
                 src={FooterLogo}
@@ -31,7 +31,7 @@ const FooterPage = () => {
                 </span>
               </h1>
             </div>
-            <div className="flex gap-6">
+            <div className="flex gap-6 sm:flex-row sm:items-center">
               <div className="">
                 <FaFacebookF className="bg-white hover:bg-[#ff9637] hover:text-white cursor-pointer w-12 h-12 p-3 text-[#ff9637] rounded-full hover:scale-[0.9] transition-all delay-100"></FaFacebookF>
               </div>
@@ -46,12 +46,12 @@ const FooterPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[23%] p-[5rem] pt-[4rem] pb-[3rem] ">
+          <div className="w-[24%] p-[5rem] pt-[4rem] pb-[3rem] flex sm:w-[100%] sm-flex sm:flex-col sm:items-center sm:text-center sm:justify-center">
             <h1 className="text-white text-[2rem] font-bold pb-2">
               Quick Links
             </h1>
-            <ul className="text-white text-[20px]  ">
-              <li className=" hover:text-[#ff9637] cursor-pointer pb-2">
+            <ul className="text-white text-[20px] sm:flex sm:flex-col sm:justify-center sm: sm:text-center ">
+              <li className=" hover:text-[#ff9637] cursor-pointer pb-2 sm:text-center">
                 <a
                   className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
@@ -85,7 +85,7 @@ const FooterPage = () => {
               </li>
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a
-                  className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
+                  className="flex justify-start items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
                   href=""
                 >
                   <IoIosArrowForward></IoIosArrowForward>Anti-Ragging Committee
@@ -93,7 +93,7 @@ const FooterPage = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[24%] p-[5.5rem] pt-[7rem] pb-[3rem]">
+          <div className="w-[24%] p-[5.5rem] pt-[7rem] pb-[3rem] flex sm:w-[100%] sm:flex-col sm:items-center ">
             <ul className="text-white text-[20px] ">
               <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                 <a
@@ -138,7 +138,7 @@ const FooterPage = () => {
               </li>
             </ul>
           </div>
-          <div className="w-[25%] p-[3rem] pt-[4rem] pb-[3rem]">
+          <div className="w-[25%] p-[3rem] pt-[4rem] pb-[3rem] sm:w-[100%] sm:flex sm:justify-center sm:items-center sm:flex-col">
             <h1 className="text-[white] text-[2rem] font-bold pb-2">
               Our Institutions
             </h1>
@@ -181,7 +181,7 @@ const FooterPage = () => {
             </ul>
           </div>
         </div>
-        <div className="w-full flex flex-row justify-evenly items-center pb-[7rem]">
+        <div className="w-full flex flex-row justify-evenly items-center pb-[7rem] sm:flex-col sm:gap-4">
           <div className="flex justify-around items-center gap-2  ">
             <IoCall className="text-[#ff9637] text-[3rem]"></IoCall>
             <div>

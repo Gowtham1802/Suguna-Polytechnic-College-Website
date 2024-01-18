@@ -1,4 +1,7 @@
 import React from "react";
+import { IoCall } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 const ContactPage = () => {
   return (
@@ -9,10 +12,53 @@ const ContactPage = () => {
             Contact Us
           </h1>
         </div>
-        <div className="w-full">
-          <div className="w-full">
-            <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out">
+        <div className="w-full flex flex-row justify-center items-center">
+          <div className="w-[50%]">
+            <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[3rem]">
               Contact Us
+            </h1>
+            <div className="w-full flex flex-col justify-start items-start pt-[3rem]  pb-[7rem] gap-10">
+              <div className="flex justify-around items-center gap-2">
+                <IoCall className="text-[#ff9637] text-[3rem]"></IoCall>
+                <div>
+                  <span className="text-[#ff9637] text-[20px]">
+                    +91 8870008623
+                  </span>
+                  <br />
+                  <span className="text-[#ff9637] text-[20px]">
+                    +91 9600860934
+                  </span>
+                </div>
+              </div>
+              <div className=" flex items-center gap-2 ">
+                <div className="flex items-center gap-2">
+                  <MdEmail className="text-[#ff9637] text-[3rem] "></MdEmail>
+                  <div>
+                    <span className="text-[#ff9637] text-[20px] ">
+                      sugunapolytechniccollege@gmail.com
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="flex  items-center gap-2">
+                <a href="https://www.google.com/maps/place/Suguna+Polytechnic+College/@11.0509439,77.0322591,15z/data=!4m6!3m5!1s0x3ba857bbffffffff:0xfaed96bd33545bc0!8m2!3d11.0509439!4d77.0322591!16s%2Fg%2F1tl7m4b8?entry=ttu">
+                  <FaLocationDot className="text-[#ff9637] text-[3rem]"></FaLocationDot>
+                </a>
+                <div className="items-center">
+                  <span className="text-[#ff9637] font-bold text-[20px]">
+                    Kalapatti Main Rd, near Vinayaka Temple, GKD Nagar,
+                  </span>
+                  <br />
+                  <span className="text-[#ff9637] text-[20px]">
+                    Nehru Nagar West, Coimbatore, Tamil Nadu - 641014
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-[50%] flex">
+            <h1 className="text-[#ff9637] text-[3rem] text-center font-bold">
+              If you are any doubts please contact us our college in any time.
             </h1>
           </div>
         </div>
