@@ -12,7 +12,7 @@ import { IoIosArrowForward } from "react-icons/io";
 const FooterPage = () => {
   return (
     <div>
-      <div className="w-full bg-black flex flex-col justify-start overflow-x-hidden">
+      <div className="w-full bg-black flex flex-col justify-start overflow-x-hidden sm:overflow-x-hidden md:overflow-x-hidden lg:overflow-x-hidden xl:overflow-x-hidden 2xl:overflow-x-hidden ">
         <div className="w-full flex flex-col justify-start items-center sm:flex-col sm:justify-center lg:w-full lg:flex-row lg:justify-start ">
           <div className="w-[28%] flex flex-col gap-8 px-[5rem] pt-[3rem] pb-[1rem] items-center sm:w-[100%] lg:w-[28%] lg:px-[2rem] lg:gap-5 ">
             <div className="flex flex-row gap-2 items-center sm:items-center lg:gap-1 ">
@@ -46,7 +46,7 @@ const FooterPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[24%] p-[5rem] pt-[4rem] pb-[3rem] flex sm:w-[100%] sm-flex sm:flex-col sm:items-center sm:text-center sm:justify-center lg:w-[48%] lg:p-[2rem] lg:pt-[2rem] lg:pb[1rem]lg:flex lg:flex-row">
+          <div className="w-[24%] p-[2rem] pt-[3rem] pb-[5rem] flex sm:w-[100%] sm-flex sm:flex-col sm:items-center sm:text-center sm:justify-center lg:w-[48%] lg:p-[2rem] lg:pr-[11rem] lg:pt-[2rem] lg:pb[6rem]lg:flex lg:flex-row">
             <div className="lg:w-[50%]">
               <h1 className="text-white text-[2rem] font-bold pb-2 lg:text-[1.5rem] text-left">
                 Quick Links
@@ -100,8 +100,8 @@ const FooterPage = () => {
               </ul>
             </div>
 
-            <div className="w-[24%] pt-[rem] pb-[3rem] flex sm:w-[100%] sm:flex-col sm:items-start lg:pl-[7.2rem] lg:pt-[3rem] lg:pb[1rem] lg:flex-col lg:justify-start lg:items-start lg:w-[50%] ">
-              <ul className="text-white text-[20px] lg:text-[18px]">
+            <div className="w-[24%] pt-[rem] pb-[3rem] flex sm:w-[100%] sm:flex-col sm:items-start lg:pr-[5rem] sm:relative lg:pt-[3rem] lg:pb[1rem] lg:flex-col lg:justify-start lg:items-start lg:w-[50%] ">
+              <ul className="text-white text-[20px] sm:items-center lg:text-[18px] lg:pl-[7.2rem]">
                 <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                   <a
                     className="flex items-center gap-2 hover:scale-[0.9] transition-all duration-[600ms]"
@@ -152,7 +152,7 @@ const FooterPage = () => {
             </div>
           </div>
 
-          <div className="w-[25%] p-[3rem] pt-[4rem] pb-[3rem] sm:w-[100%] sm:flex sm:justify-start sm:items-center sm:flex-col sm:pt-[0rem] lg:w-[24%] lg:p-[2rem] lg:pt-[3rem] lg:pb[1rem]">
+          <div className="w-[25%] p-[rem] pt-[4rem] pb-[3rem] sm:w-[100%] sm:flex sm:justify-start sm:items-center sm:flex-col sm:pt-[0rem] lg:w-[24%] lg:p-[2rem] lg:pl-[rem] lg:pt-[3rem] lg:pb[1rem]">
             <h1 className="text-[white] text-[2rem] font-bold pb-2 sm:justify-start sm:items-start lg:text-[1.5rem]  ">
               Our Institutions
             </h1>

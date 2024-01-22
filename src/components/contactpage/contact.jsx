@@ -3,6 +3,8 @@ import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
 
+const [map, setMap] = useState(null);
+
 const ContactPage = () => {
   return (
     <div>
@@ -56,10 +58,32 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] flex">
+          {/* <div className="w-[50%] flex">
             <h1 className="text-[#ff9637] text-[3rem] text-center font-bold">
               If you are any doubts please contact us our college in any time.
             </h1>
+          </div> */}
+          <div className="sm:grid sm:grid-cols-[1fr_850px]">
+            <div className="grid-cols-1 h-screen">
+              {isLoaded ? (
+                <GoogleMap
+                  // here goes the container style declared above
+                  mapContainerStyle={containerStyle}
+                  center={center}
+                  zoom={10}
+                  onLoad={onLoad}
+                  onUnmount={onUnmount}
+                >
+                  <></>
+                </GoogleMap>
+              ) : (
+                <></>
+              )}
+            </div>
+            <div className="bg-[#F5F7FB] sm:pt-20 ">
+              // here goes my properties code since it's too long i won't bother
+              you with it since the problem is the parent height property.
+            </div>
           </div>
         </div>
       </div>
