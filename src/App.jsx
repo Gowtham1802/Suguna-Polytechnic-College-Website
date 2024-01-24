@@ -3,19 +3,23 @@ import "./App.css";
 import FooterPage from "./components/footerpage/footer";
 import ContactPage from "./components/contactpage/contact";
 import NavBarPage from "./components/navbarpage/navbar";
+import AboutCollage from "./components/aboutpage/about";
 
 function App() {
   return (
     <>
-      <div>
+      {/* <div>
         <NavBarPage></NavBarPage>
-      </div>
-      <div>
+      </div> */}
+      {/* <div>
         <ContactPage></ContactPage>
-      </div>
+      </div> */}
       <div>
-        <FooterPage></FooterPage>
+        <AboutCollage></AboutCollage>
       </div>
+      {/* <div>
+        <FooterPage></FooterPage>
+      </div> */}
     </>
   );
 }

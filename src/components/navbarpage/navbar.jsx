@@ -4,7 +4,7 @@ import logo from "../../../public/images/footer-img/footer-logo.jpg";
 const NavBarPage = () => {
   return (
     <div>
-      <div className="h-[14rem] min-w-[100vw] pl-5 pr-10 bg-[#fff] overflow-hidden">
+      <div className="w-full h-[11rem] min-w-[100vw] bg-[#fff] overflow-hidden">
         <div className="flex items-center justify-between mx-10">
           <div className="w-[20rem] flex items-center justify-start">
             <img src={logo} alt="" className="h-[5.5rem] mt-5" />
