@@ -4,6 +4,7 @@ import FooterPage from "./components/footerpage/footer";
 import ContactPage from "./components/contactpage/contact";
 import NavBarPage from "./components/navbarpage/navbar";
 import AboutCollage from "./components/aboutpage/about";
+import ManagementPage from "./components/managementpage/management";
 
 function App() {
   return (
@@ -14,12 +15,15 @@ function App() {
       {/* <div>
         <ContactPage></ContactPage>
       </div> */}
-      <div>
+      {/* <div>
         <AboutCollage></AboutCollage>
-      </div>
+      </div> */}
       {/* <div>
         <FooterPage></FooterPage>
       </div> */}
+      <div>
+        <ManagementPage></ManagementPage>
+      </div>
     </>
   );
 }
