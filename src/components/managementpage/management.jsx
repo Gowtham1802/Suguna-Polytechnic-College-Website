@@ -1,10 +1,10 @@
 // import SwipeableTextMobileStepper from "./managementcarousel";
-import Founder from "../../../public/images/founder-img/Founder1.png";
+import Founder from "../../../public/images/founder-img/Founder2.png";
 import Chairman from "../../../public/images/chairman-img/Chairman1.png";
-import Trustee from "../../../public/images/trustee-img/Trustee1.png";
+import Trustee from "../../../public/images/trustee-img/Trustee2.png";
 import Director from "../../../public/images/director-img/Director1.png";
-import Principal from "../../../public/images/principal-img/Principal1.png";
-import Coordinator from "../../../public/images/coordinator-img/Coordinator1.png";
+import Principal from "../../../public/images/principal-img/Principal2.png";
+import Coordinator from "../../../public/images/coordinator-img/Dean.png";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
@@ -24,10 +24,10 @@ const ManagementPage = () => {
         </div>
         <div className="w-full  justify-center items-center ">
           <div className="w-full flex-row items-center  mt-6 justify-evenly grid grid-cols-3 gap-10 pl-[8rem]">
-            <div className="  h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="w-[20rem] h-[16rem]  object-cover hover:scale-[1.1] transition duration-[400ms]"
+                  className="w-[20rem] h-[16rem] hover:scale-[1.1] transition duration-[400ms]"
                   src={Founder}
                   alt="one"
                 />
@@ -58,7 +58,7 @@ const ManagementPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="flex flex-col h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
                   className="h-[20rem] w-[20rem] scale-[1] hover:scale-[1.1] transition duration-[400ms]"
@@ -94,10 +94,10 @@ const ManagementPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="flex flex-col h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="h-[20rem] w-[20rem] hover:scale-[1.3] scale-[1.1] transition duration-[400ms]"
+                  className="h-[20rem] w-[20rem] hover:scale-[1.3] scale-[1.1] transition duration-[400ms] pt-3"
                   src={Trustee}
                   alt="one"
                 />
@@ -126,10 +126,10 @@ const ManagementPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms]"
+                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms] pt-8"
                   src={Director}
                   alt="one"
                 />
@@ -161,10 +161,10 @@ const ManagementPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms]"
+                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms] pt-2"
                   src={Principal}
                   alt="one"
                 />
@@ -198,7 +198,7 @@ const ManagementPage = () => {
               </div>
             </div>
 
-            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#f4e5d8] rounded-lg">
+            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
                   className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms]"
@@ -222,9 +222,7 @@ const ManagementPage = () => {
                 </div>
                 <div className="w-[20rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
                   <h5 className="mb-0 font-bold text-xl mt-6"> Mrs.S.Ramya</h5>
-                  <small className="font-bold text-sm">
-                    Acadamic Co-ordinator
-                  </small>
+                  <small className="font-bold text-sm">Dean</small>
                   <button className="flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
