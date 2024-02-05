@@ -5,6 +5,7 @@ import ContactPage from "./components/contactpage/contact";
 import NavBarPage from "./components/navbarpage/navbar";
 import AboutCollage from "./components/aboutpage/about";
 import ManagementPage from "./components/managementpage/management";
+import FounderDetails from "./components/managementpage/founder";
 
 function App() {
   return (
@@ -21,8 +22,11 @@ function App() {
       {/* <div>
         <FooterPage></FooterPage>
       </div> */}
-      <div>
+      {/* <div>
         <ManagementPage></ManagementPage>
+      </div> */}
+      <div>
+        <FounderDetails></FounderDetails>
       </div>
     </>
   );
