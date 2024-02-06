@@ -7,6 +7,7 @@ import AboutCollage from "./components/aboutpage/about";
 import ManagementPage from "./components/managementpage/management";
 import FounderDetails from "./components/managementpage/founder";
 import ChairmanDetails from "./components/managementpage/chairman";
+import TrusteeDetails from "./components/managementpage/trustee";
 
 function App() {
   return (
@@ -23,15 +24,18 @@ function App() {
       {/* <div>
         <FooterPage></FooterPage>
       </div> */}
-      {/* <div>
+      <div>
         <ManagementPage></ManagementPage>
-      </div> */}
+      </div>
       {/* <div>
         <FounderDetails></FounderDetails>
       </div> */}
-      <div>
+      {/* <div>
         <ChairmanDetails></ChairmanDetails>
-      </div>
+      </div> */}
+      {/* <div>
+        <TrusteeDetails></TrusteeDetails>
+      </div> */}
     </>
   );
 }
