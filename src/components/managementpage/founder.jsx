@@ -1,7 +1,7 @@
 import React from "react";
 import { FiChevronsRight, FiArrowRight } from "react-icons/fi";
 import { ImCancelCircle } from "react-icons/im";
-import FunderImg from "../../../public/images/founder-img/Foundernew.png";
+import FunderImg from "../../../public/images/founder-img/Founder2.png";
 
 const FounderDetails = () => {
   return (
