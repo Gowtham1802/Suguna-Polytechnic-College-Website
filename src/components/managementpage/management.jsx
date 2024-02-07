@@ -35,13 +35,13 @@ const ManagementPage = () => {
               <div className="relative pt-3">
                 <div className="absolute top-[-1rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center w-[8.5rem] h-[3rem] justify-center space-x-3 bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2">
+                    <button className="bg-[#1dc1d1]  hover:text-[#1DC1D1] hover:bg-[white] text-white p-2">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2">
                       <FaLinkedin />
                     </button>
                   </div>
@@ -51,7 +51,7 @@ const ManagementPage = () => {
                     Mr.G.Ramaswamy
                   </h5>
                   <small className="font-bold text-sm">Founder</small>
-                  <button className="flex justify-center items-center font-bold">
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
                 </div>
@@ -69,13 +69,13 @@ const ManagementPage = () => {
               <div className=" relative">
                 <div className="w-full  absolute top-[-1.5rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[8.5rem] h-[3rem]  justify-center space-x-3 bg-[#F0FBFC] ">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaLinkedin />
                     </button>
                   </div>
@@ -87,7 +87,7 @@ const ManagementPage = () => {
                   <small className="font-bold text-sm">
                     Managing Director & Chairman
                   </small>
-                  <button className="flex justify-center items-center font-bold">
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
                 </div>
@@ -105,13 +105,13 @@ const ManagementPage = () => {
               <div className=" relative">
                 <div className="w-full  absolute top-[-1.5rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[8.5rem] h-[3rem]  justify-center space-x-3 bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaLinkedin />
                     </button>
                   </div>
@@ -119,7 +119,7 @@ const ManagementPage = () => {
                 <div className="w-[18rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
                   <h5 className="mb-0 font-bold text-xl mt-6">Mrs.L.Suguna</h5>
                   <small className="font-bold text-sm">Managing Trustee</small>
-                  <button className="flex justify-center items-center font-bold">
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
                 </div>
@@ -137,34 +137,34 @@ const ManagementPage = () => {
               <div className=" relative">
                 <div className="w-full  absolute top-[-1.5rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[8.5rem] h-[3rem]  justify-center space-x-3 bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaLinkedin />
                     </button>
                   </div>
                 </div>
-                <div className="w-[20rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
+                <div className="w-[18rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
                   <h5 className="mb-0 font-bold text-xl mt-6">
                     {" "}
                     Mr.Arun Ranganathan
                   </h5>
                   <small className="font-bold text-sm">Director</small>
-                  <button className="flex justify-center items-center font-bold">
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
+            <div className="flex flex-col  h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms] pt-2"
+                  className="h-[20rem] w-[16.5rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms] pt-2"
                   src={Principal}
                   alt="one"
                 />
@@ -172,18 +172,18 @@ const ManagementPage = () => {
               <div className=" relative">
                 <div className="w-full  absolute top-[-1.5rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[8.5rem] h-[3rem]  justify-center space-x-3 bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaLinkedin />
                     </button>
                   </div>
                 </div>
-                <div className="w-[20rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
+                <div className="w-[18rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
                   <h5 className="mb-0 font-bold text-xl mt-6">
                     {" "}
                     Mr.V.Govindarajalu
@@ -191,17 +191,17 @@ const ManagementPage = () => {
                   <small className="font-bold text-sm">
                     Principal of Suguna Polytechnic College
                   </small>
-                  <button className="flex justify-center items-center font-bold">
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold">
                     Read More <GoArrowRight />
                   </button>
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col  h-[23rem] w-[20rem] bg-[#F0FBFC] rounded-lg">
+            <div className="flex flex-col  h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
-                  className="h-[20rem] w-[20rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms]"
+                  className="h-[17rem] w-[18rem] scale-[1.2] hover:scale-[1.3]  transition duration-[400ms]"
                   src={Coordinator}
                   alt="one"
                 />
@@ -209,22 +209,23 @@ const ManagementPage = () => {
               <div className=" relative">
                 <div className="w-full  absolute top-[-1.5rem] left-0 right-0 flex justify-center">
                   <div className="flex items-center mt-1 w-[8.5rem] h-[3rem]  justify-center space-x-3 bg-[#F0FBFC]">
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaFacebookF />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaTwitter />
                     </button>
-                    <button className="bg-[#1DC1D1] text-white p-2 ">
+                    <button className="bg-[#1DC1D1] text-white hover:text-[#1DC1D1] hover:bg-[white] p-2 ">
                       <FaLinkedin />
                     </button>
                   </div>
                 </div>
-                <div className="w-[20rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
+                <div className="w-[18rem] h-[6.5rem] flex flex-col text-center  justify-center bg-[#F0FBFC] mt-0">
                   <h5 className="mb-0 font-bold text-xl mt-6"> Mrs.S.Ramya</h5>
                   <small className="font-bold text-sm">Dean</small>
-                  <button className="flex justify-center items-center font-bold">
-                    Read More <GoArrowRight />
+                  <button className="hover:text-[#1DC1D1] flex justify-center items-center font-bold text-center">
+                    Read More{" "}
+                    <GoArrowRight className="text-center items-center font-bold" />
                   </button>
                 </div>
               </div>
