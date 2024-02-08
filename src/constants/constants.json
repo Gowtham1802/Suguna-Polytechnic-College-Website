@@ -1,0 +1,14 @@
+{
+  "management_details": [
+    {
+      "name": "Mr.G.Ramaswamy",
+      "post": "Founder",
+      "imgUrl": "../../public/images/founder-img/Founder2.png"
+    },
+    {
+      "name": "Mr.V.Lakshiminarayanasamy",
+      "post": "Managing Director & Chairman",
+      "imgUrl": "../../public/images/chairman-img/Chairman1.png"
+    }
+  ]
+}

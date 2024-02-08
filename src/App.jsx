@@ -12,7 +12,7 @@ import DirectorDetails from "./components/managementpage/director";
 import PrincipalDetails from "./components/managementpage/principal";
 import DeanDetails from "./components/managementpage/dean";
 
-function App() {
+function App() {  
   return (
     <>
       {/* <div>
