@@ -9,10 +9,11 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { GoArrowRight } from "react-icons/go";
+import data from "../../constants/constants.json";
+console.log(data);
 
-let { name, post, imgUrl } = data.management_details[1];
+// let { name, post, imgUrl } = data.management_details;
 
-// profile
 import Profile from "./profile";
 
 const ManagementPage = () => {
@@ -28,10 +29,14 @@ const ManagementPage = () => {
           </h1>
         </div>
         <div className="w-full flex flex-col justify-center items-center ">
-          <div className="w-[80%] pt-6 grid grid-cols-3 gap-10">
-            <Profile Founder={Founder} FaFacebookF={FaFacebookF} />
+          <div className="w-[100%] pt-6 grid grid-cols-1 justify-items-center gap-10 sm:w-[50%] sm:grid sm:grid-cols-1 sm:gap-6 md:grid md:grid-cols-2 md:gap-10 md:w-[80%] lg:w-[70%] lg:gap-[5rem] xl:w-[80%] xl:grid xl:grid-cols-3 ">
+            {data?.management_details.length > 0
+              ? data.management_details.map((detail, index) => {
+                  return <Profile detail={detail} key={index} />;
+                })
+              : "No data found"}
 
-            <div className="flex flex-col h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
+            {/* <div className="flex flex-col h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
                   className="h-[20rem] w-[20rem] scale-[1] hover:scale-[1.1] transition duration-[400ms]"
@@ -61,9 +66,9 @@ const ManagementPage = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
 
-            <div className="flex flex-col h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
+            {/* <div className="flex flex-col h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
               <div className="overflow-hidden">
                 <img
                   className="h-[20rem] w-[18rem] ml- hover:scale-[1.3] scale-[1.1] transition duration-[400ms] pt-3"
@@ -198,7 +203,7 @@ const ManagementPage = () => {
                   </button>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

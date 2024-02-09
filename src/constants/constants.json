@@ -9,6 +9,26 @@
       "name": "Mr.V.Lakshiminarayanasamy",
       "post": "Managing Director & Chairman",
       "imgUrl": "../../public/images/chairman-img/Chairman1.png"
+    },
+    {
+      "name": "Mrs.L.Suguna",
+      "post": "Managing Trustee",
+      "imgUrl": "../../public/images/trustee-img/Trustee2.png"
+    },
+    {
+      "name": "Mr.Arun Ranganathan",
+      "post": "Director",
+      "imgUrl": "../../public/images/director-img/Director1.png"
+    },
+    {
+      "name": "Mr.V.Govindarajalu",
+      "post": "Principal of Suguna Polytechnic College",
+      "imgUrl": "../../public/images/principal-img/Principal2.png"
+    },
+    {
+      "name": "Mrs.S.Ramya",
+      "post": "Dean",
+      "imgUrl": "../../public/images/coordinator-img/Dean.png"
     }
   ]
 }

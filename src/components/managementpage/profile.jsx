@@ -5,18 +5,17 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { GoArrowRight } from "react-icons/go";
 
-import data from "../../constants/constants.json";
-let { name, post, imgUrl } = data.management_details[0];
-
-const Profile = ({ Founder }) => {
+const Profile = ({ detail }) => {
+  // console.log(name, post);
+  const { name, post, imgUrl } = detail;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      <div className="h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg">
-        <div className="overflow-hidden">
+      <div className="h-[23rem] w-[18rem] bg-[#F0FBFC] rounded-lg flex flex-col items-center">
+        <div className="w-[90%] h-[15rem] overflow-hidden">
           <img
-            className="w-[16.5rem] h-[16rem] ml-3 hover:scale-[1.1] transition duration-[400ms]"
+            className="w-full h-auto object-center hover:scale-[1.1] transition duration-[400ms]"
             src={imgUrl}
             alt="one"
           />

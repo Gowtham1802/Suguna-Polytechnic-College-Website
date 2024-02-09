@@ -1,9 +1,7 @@
 import React from "react";
 import FooterLogo from "../../../public/images/footer-img/footer-logo.jpg";
-import { FaFacebookF } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaInstagramSquare } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import {
+  FaFacebookF, FaTwitter,FaInstagramSquare,FaYoutube,} from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";

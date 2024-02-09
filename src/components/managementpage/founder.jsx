@@ -4,7 +4,6 @@ import { ImCancelCircle } from "react-icons/im";
 import FunderImg from "../../../public/images/founder-img/Founder2.png";
 
 const FounderDetails = ({ isOpen, setIsOpen }) => {
-  console.log(document.body.height);
   return (
     <>
       {isOpen ? (
