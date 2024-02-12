@@ -12,24 +12,24 @@ import DirectorDetails from "./components/managementpage/director";
 import PrincipalDetails from "./components/managementpage/principal";
 import DeanDetails from "./components/managementpage/dean";
 
-function App() {  
+function App() {
   return (
     <>
       {/* <div>
         <NavBarPage></NavBarPage>
       </div> */}
-      {/* <div>
+      <div>
         <ContactPage></ContactPage>
-      </div> */}
+      </div>
       {/* <div>
         <AboutCollage></AboutCollage>
       </div> */}
       {/* <div>
         <FooterPage></FooterPage>
       </div> */}
-      <div>
+      {/* <div>
         <ManagementPage></ManagementPage>
-      </div>
+      </div> */}
       {/* <div>
         <FounderDetails></FounderDetails>
       </div> */}

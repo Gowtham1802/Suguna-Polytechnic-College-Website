@@ -8,7 +8,7 @@ import { FaLocationDot } from "react-icons/fa6";
 const ContactPage = () => {
   return (
     <div>
-      <div className="w-full min-h-[100vh] mt-5 pl-5 pr-5">
+      <div className="w-full min-h-[100vh] mt-5 p-4">
         <div className="w-full h-[20rem] bg-[#ff9637] rounded-tl-[3rem] rounded-br-[3rem]">
           <h1 className="text-[white] text-center p-[6rem] font-bold text-[5rem] animate-animated animate-fadeInDown animate-delay-2s">
             Contact Us
@@ -63,28 +63,20 @@ const ContactPage = () => {
               If you are any doubts please contact us our college in any time.
             </h1>
           </div>
-          {/* <div className="sm:grid sm:grid-cols-[1fr_850px]">
-            <div className="grid-cols-1 h-screen">
-              {isLoaded ? (
-                <GoogleMap
-                  // here goes the container style declared above
-                  mapContainerStyle={containerStyle}
-                  center={center}
-                  zoom={10}
-                  onLoad={onLoad}
-                  onUnmount={onUnmount}
-                >
-                  <></>
-                </GoogleMap>
-              ) : (
-                <></>
-              )}
-            </div>
-            <div className="bg-[#F5F7FB] sm:pt-20 ">
-              // here goes my properties code since it's too long i won't bother
-              you with it since the problem is the parent height property.
-            </div>
-          </div> */}
+        </div>
+        <div className="w-full ">
+          <p className=" p-4 ">
+            <iframe
+              className="w-full min-h-[600px] rounded-lg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3915.835677029575!2d77.02968417405829!3d11.050943889114977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba857bbffffffff%3A0xfaed96bd33545bc0!2sSuguna%20Polytechnic%20College!5e0!3m2!1sen!2sin!4v1707721563276!5m2!1sen!2sin"
+              // width="1200"
+              // height="600"
+              // style="border:0;"
+              // allowfullscreen=""
+              // loading="lazy"
+              // referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </p>
         </div>
       </div>
     </div>
