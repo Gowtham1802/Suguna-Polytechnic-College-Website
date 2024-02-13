@@ -2,22 +2,26 @@ import React from "react";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
+import ContactForm from "./contactform";
 
 // const [map, setMap] = useState(null);
 
 const ContactPage = () => {
   return (
     <div>
-      <div className="w-full min-h-[100vh] mt-5 p-4">
+      <div className="w-full min-h-[100vh] mt-4 p-4">
         <div className="w-full h-[20rem] bg-[#ff9637] rounded-tl-[3rem] rounded-br-[3rem]">
           <h1 className="text-[white] text-center p-[6rem] font-bold text-[5rem] animate-animated animate-fadeInDown animate-delay-2s">
             Contact Us
           </h1>
         </div>
-        <div className="w-full flex flex-row justify-center items-center">
+        <div className="w-full flex flex-row justify-center items-start mt-4">
           <div className="w-[50%]">
-            <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[3rem]">
+            <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[0rem]">
               Contact Us
+            </h1>
+            <h1 className="text-[#ff9637] text-[2rem] text-start font-bold">
+              If you are any doubts please contact us our college in any time.
             </h1>
             <div className="w-full flex flex-col justify-start items-start pt-[3rem]  pb-[7rem] gap-10">
               <div className="flex justify-around items-center gap-2">
@@ -58,10 +62,8 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] flex">
-            <h1 className="text-[#ff9637] text-[3rem] text-center font-bold">
-              If you are any doubts please contact us our college in any time.
-            </h1>
+          <div className="w-[50%] text">
+            <ContactForm></ContactForm>
           </div>
         </div>
         <div className="w-full ">
