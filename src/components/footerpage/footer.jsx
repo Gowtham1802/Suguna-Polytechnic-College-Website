@@ -1,7 +1,11 @@
 import React from "react";
 import FooterLogo from "../../../public/images/footer-img/footer-logo.jpg";
 import {
-  FaFacebookF, FaTwitter,FaInstagramSquare,FaYoutube,} from "react-icons/fa";
+  FaFacebookF,
+  FaTwitter,
+  FaInstagramSquare,
+  FaYoutube,
+} from "react-icons/fa";
 import { IoCall } from "react-icons/io5";
 import { MdEmail } from "react-icons/md";
 import { FaLocationDot } from "react-icons/fa6";
@@ -98,7 +102,7 @@ const FooterPage = () => {
               </ul>
             </div>
 
-            <div className="w-[24%] pt-[rem] pb-[3rem] flex sm:w-[30%] sm:flex-col sm:items-start sm:relative lg:pt-[6rem] lg:flex-col lg:justify-start lg:items-start lg:w-[50%] ">
+            <div className="w-[25%] mb-[4rem] mr-[5rem] flex sm:w-[30%] sm:flex-col sm:items-start sm:relative lg:pt-[6rem] lg:flex-col lg:justify-start lg:items-start lg:w-[50%] ">
               <ul className="text-white text-[20px] lg:justify-start lg:items-start  lg:text-[18px] lg:pl-[7.2rem]">
                 <li className="hover:text-[#ff9637] cursor-pointer pb-2">
                   <a
@@ -150,7 +154,7 @@ const FooterPage = () => {
             </div>
           </div>
 
-          <div className="w-[25%] sm:w-[100%] sm:flex sm:justify-start sm:items-center sm:flex-col sm:pt-[0rem] lg:w-[28%]">
+          <div className="w-[25%] top sm:w-[100%] sm:flex sm:justify-start sm:items-center sm:flex-col sm:pt-[0rem] lg:w-[28%]">
             <h1 className="text-[white] text-[2rem] font-bold pb-2 sm:justify-start sm:items-center lg:text-[1.5rem]  ">
               Our Institutions
             </h1>

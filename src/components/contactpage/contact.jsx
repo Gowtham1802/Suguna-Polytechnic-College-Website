@@ -9,13 +9,13 @@ import ContactForm from "./contactform";
 const ContactPage = () => {
   return (
     <div>
-      <div className="w-full min-h-[100vh] mt-4 p-4">
-        <div className="w-full h-[20rem] bg-[#ff9637] rounded-tl-[3rem] rounded-br-[3rem]">
-          <h1 className="text-[white] text-center p-[6rem] font-bold text-[5rem] animate-animated animate-fadeInDown animate-delay-2s">
+      <div className="w-full min-h-[100vh] mt-4 p-4 sm:w-full sm:p-4">
+        <div className="w-full h-[20rem] bg-[#ff9637] rounded-tl-[3rem] rounded-br-[3rem] sm:w-full">
+          <h1 className="text-[white] text-center p-[3rem] font-bold text-[4rem] animate-animated animate-fadeInDown animate-delay-2s">
             Contact Us
           </h1>
         </div>
-        <div className="w-full flex flex-row justify-center items-start mt-4">
+        <div className="w-full flex flex-col justify-center items-start mt-4 sm:flex sm:flex-col sm:justify-start sm:items-start md:flex md:flex-col md:justify-start md:items-start lg:flex lg:flex-row lg:justify-center lg:items-center">
           <div className="w-[50%]">
             <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[0rem]">
               Contact Us
@@ -39,8 +39,8 @@ const ContactPage = () => {
               <div className=" flex items-center gap-2 ">
                 <div className="flex items-center gap-2">
                   <MdEmail className="text-[white] bg-[#ff9637] hover:bg-[white] hover:text-[#ff9637] cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></MdEmail>
-                  <div>
-                    <span className="text-[#ff9637] text-[20px] ">
+                  <div className="w-full">
+                    <span className="text-[#ff9637] w-[50px]">
                       sugunapolytechniccollege@gmail.com
                     </span>
                   </div>
@@ -62,7 +62,7 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] text">
+          <div className="w-[50%] ml-[2rem]">
             <ContactForm></ContactForm>
           </div>
         </div>
