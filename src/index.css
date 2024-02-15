@@ -2,10 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
+body {
   overflow-x: hidden;
 }
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

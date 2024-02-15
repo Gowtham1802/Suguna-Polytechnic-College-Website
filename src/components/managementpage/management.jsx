@@ -18,7 +18,7 @@ import Profile from "./profile";
 
 const ManagementPage = () => {
   return (
-    <div>
+    <div className="overflow-hidden">
       <div className="w-[100%] p-4">
         <div className="text-center">
           <span className="mb-3 flex items-center justify-center text-lg font-semibold text-[#1DC1D1]">
@@ -29,7 +29,7 @@ const ManagementPage = () => {
           </h1>
         </div>
         <div className="w-full flex flex-col justify-center items-center ">
-          <div className="w-[100%] pt-6 grid grid-cols-1 justify-items-center gap-10 sm:w-[50%] sm:grid sm:grid-cols-1 sm:gap-6 md:grid md:grid-cols-2 md:gap-10 md:w-[80%] lg:w-[70%] lg:gap-[5rem] xl:w-[80%] xl:grid xl:grid-cols-3 ">
+          <div className="w-[100%] pt-6 grid grid-cols-1 justify-items-center gap-10 sm:w-[50%] sm:grid sm:grid-cols-1 sm:gap-6 md:grid md:grid-cols-2 md:gap-10 md:w-[80%] lg:w-[70%] lg:gap-[5rem] xl:w-[80%] xl:grid xl:grid-cols-3 overflow-hidden">
             {data?.management_details.length > 0
               ? data.management_details.map((detail, index) => {
                   return <Profile detail={detail} key={index} />;

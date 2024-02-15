@@ -21,13 +21,15 @@ const ContactForm = () => {
 
   return (
     <>
-      <div className="">
-        <h1 className="text-start font-bold w-[11rem] text-[2rem] border-b-[3px] border-b-orange-400">
-          For Enquiry
-        </h1>
-      </div>
-      <div className="w-[18rem] bg-[#f8e4d2] p-10 mt-5 ">
-        <div id="hubspot" className="text-center "></div>
+      <div className="mb-[4rem] ">
+        <div className="">
+          <h1 className="text-start font-bold w-[11rem] text-[2rem] border-b-[3px] border-b-orange-400">
+            For Enquiry
+          </h1>
+        </div>
+        <div className="w-[30rem] px-[5%] bg-[#f8e4d2] py-6 mt-5 ">
+          <div id="hubspot" className="text-center "></div>
+        </div>
       </div>
     </>
   );

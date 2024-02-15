@@ -3,32 +3,32 @@
     {
       "name": "Mr.G.Ramaswamy",
       "post": "Founder",
-      "imgUrl": "../../public/images/founder-img/Founder2.png"
+      "imgUrl": "../../public/images/founder-img/Founder2.png",
+      "popupContent": "Sri.G.Ramaswamy started his career as a marketing person in a small organization at Chennai. He gained experience in meeting customers especially the farming community. He understood the demand for electric motors – a prime mover for machinery, pump or any moving engineering product. He started an enterprise at Coimbatore, the home-town for manufacturing Electric motors, products that are used for generations. He was also honoured with Rashtriya Samman Award by the Govt. of India for being the highest tax payer to the government for three consecutive years."
     },
     {
       "name": "Mr.V.Lakshiminarayanasamy",
       "post": "Managing Director & Chairman",
-      "imgUrl": "../../public/images/chairman-img/Chairman1.png"
+      "imgUrl": "../../public/images/chairman-img/Chairman1.png",
+      "popupContent": "Suguna Polytechnic College is one among the various educational projects of Suguna Charitable Trust, born out of social Consciousness of the Founder in 1997. It is a forerunner among the several Educational Institutions run by the Trust. The quest to serve humanity made the Suguna Group of Industries establish the Suguna Charitable Trust way back in 1973. Since then the Trust has been taking up various projects in the areas of Education and Health-Care. ‘Education is the manifestation of the Divinity already present in man’ said Swami Vivekananda. The Management has put together a fully equipped campus with Internet Connectivity, LCD Projectors, state of the art laboratories etc., that help the students in learning. A free medical centre, a dental clinic and a multi purpose auditorium (Suguna Kalyana Mandapam) – all set up by the Trust meet the varied needs of the community. Our Memoranda of Understanding with various Industries and Institution are our major strength. Many of our students, who have successfully completed their studies in this Institutions are not only placed in our own industries but also in other reputable Industries and Companies like HCL, Sam Turbo, G–Plast Engineering, Craftsman Automation,Printronix, Microsen, Quattro Engineering, Vital Engineering bring high quality to their work and esteem to the nation and have done us proud. With steady steps, we continue our march forward. We look forward to meeting you here at Suguna Polytechnic College."
     },
     {
       "name": "Mrs.L.Suguna",
       "post": "Managing Trustee",
-      "imgUrl": "../../public/images/trustee-img/Trustee2.png"
-    },
-    {
-      "name": "Mr.Arun Ranganathan",
-      "post": "Director",
-      "imgUrl": "../../public/images/director-img/Director1.png"
+      "imgUrl": "../../public/images/trustee-img/Trustee2.png",
+      "popupContent": "Suguna Polytechnic College was established with the aim of providing quality Diploma Level Technical Education on par with latest technical know how. The Polytechnic persistently seeks and adopts innovative methods to improve the quality of Diploma Education on a consistent basis especially to the need of the present technological trend. The Infrastructure has a high tech atmosphere with students from all parts of the nation. Experienced and learned teachers are strongly encouraged to nourish the student’s appetite for learning new techniques in latest technological advancement. The excellent standards set at Suguna Polytechnic College in the field of practical oriented teaching to suit the latest need of the technical sphere in this part of the country, spur us on in our tireless pursuit of excellence. In fact, it has become modus operandi of this institution. The highly motivated youngsters on the campus are a constant source of pride. We at Suguna Polytechnic College will impart futuristic technical education and instill high patterns of discipline through our dedicated staff, who shall set excellent standards, making our students technologically superior and ethically strong, who in turn shall improve the quality of life of the human race."
     },
     {
       "name": "Mr.V.Govindarajalu",
       "post": "Principal of Suguna Polytechnic College",
-      "imgUrl": "../../public/images/principal-img/Principal2.png"
+      "imgUrl": "../../public/images/principal-img/Principal2.png",
+      "popupContent": "Knowledge is one’s guide throughout his lifetime. It differentiates between good and bad, understand discipline and are common same. Teaching is the best profession in the world. It does not stop at subjects,practicals or just getting a certificate. It is guiding the student to observe and learn. I do not believe in words. I believe in action , which would speak for. Suguna Polytechnic College backed with Suguna Group of Industries & Institutions is the best place to “Explore your Future and achieve your dreams”."
     },
     {
       "name": "Mrs.S.Ramya",
       "post": "Dean",
-      "imgUrl": "../../public/images/coordinator-img/Dean.png"
+      "imgUrl": "../../public/images/coordinator-img/Dean.png",
+      "popupContent": "Our desire is to help each student become a life long learner who through the course will learn the academic, social & work place skills to allow them to complete successfully in the forthcoming global economy. Our commitment is to provide a safe, positive, intellectual learning environment that will empower student to become creative, problem solvers, critical thinkers and inspired learners."
     }
   ]
 }

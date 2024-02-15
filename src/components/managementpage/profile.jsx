@@ -7,7 +7,7 @@ import { GoArrowRight } from "react-icons/go";
 
 const Profile = ({ detail }) => {
   // console.log(name, post);
-  const { name, post, imgUrl } = detail;
+  const { name, post, imgUrl, popupContent } = detail;
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -46,7 +46,14 @@ const Profile = ({ detail }) => {
           </div>
         </div>
       </div>
-      <FounderDetails isOpen={isOpen} setIsOpen={setIsOpen} />
+      <FounderDetails
+        isOpen={isOpen}
+        setIsOpen={setIsOpen}
+        name={name}
+        post={post}
+        imgUrl={imgUrl}
+        popupContent={popupContent}
+      />
     </>
   );
 };

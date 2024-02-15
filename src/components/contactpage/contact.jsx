@@ -15,12 +15,12 @@ const ContactPage = () => {
             Contact Us
           </h1>
         </div>
-        <div className="w-full flex flex-col justify-center items-start mt-4 sm:flex sm:flex-col sm:justify-start sm:items-start md:flex md:flex-col md:justify-start md:items-start lg:flex lg:flex-row lg:justify-center lg:items-center">
+        <div className="w-full flex flex-col justify-center items-start mt-4 sm:flex sm:flex-col sm:justify-start sm:items-start md:flex md:flex-col md:justify-start md:items-start lg:flex lg:flex-row lg:justify-center lg:items-center gap-2 px-[4%]">
           <div className="w-[50%]">
             <h1 className="w-[11rem] font-bold text-[2rem] border-b-[3px] border-b-orange-400 transition-all 0.2s ease-in-out pt-[0rem]">
               Contact Us
             </h1>
-            <h1 className="text-[#ff9637] text-[2rem] text-start font-bold">
+            <h1 className="text-[#ff9637] text-[2rem] w-[25rem] text-start font-bold">
               If you are any doubts please contact us our college in any time.
             </h1>
             <div className="w-full flex flex-col justify-start items-start pt-[3rem]  pb-[7rem] gap-10">
@@ -40,7 +40,7 @@ const ContactPage = () => {
                 <div className="flex items-center gap-2">
                   <MdEmail className="text-[white] bg-[#ff9637] hover:bg-[white] hover:text-[#ff9637] cursor-pointer text-[5rem] p-[1rem] rounded-tl-[1rem] rounded-br-[1rem]"></MdEmail>
                   <div className="w-full">
-                    <span className="text-[#ff9637] w-[50px]">
+                    <span className="text-[#ff9637] ">
                       sugunapolytechniccollege@gmail.com
                     </span>
                   </div>
@@ -62,7 +62,7 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          <div className="w-[50%] ml-[2rem]">
+          <div className="w-[50%]  ">
             <ContactForm></ContactForm>
           </div>
         </div>

@@ -3,41 +3,35 @@ import { FiChevronsRight, FiArrowRight } from "react-icons/fi";
 import { ImCancelCircle } from "react-icons/im";
 import FunderImg from "../../../public/images/founder-img/Founder2.png";
 
-const FounderDetails = ({ isOpen, setIsOpen }) => {
+const FounderDetails = ({
+  isOpen,
+  setIsOpen,
+  name,
+  post,
+  imgUrl,
+  popupContent,
+}) => {
   return (
     <>
       {isOpen ? (
-        <div className="w-[100vw] h-[200vh] bg-[rgba(0,0,0,0.7)] absolute z-[111111] flex justify-center items-center p-4 bottom-[-23rem] left-0">
-          <div className=" flex justify-center items-center ">
-            <div className="flex justify-between h-[25rem] w-[45rem] bg-[#F0FBFC] rounded-3xl relative pt-14">
-              <div className="w-[40%]">
+        <div className="w-[100%] h-[100%] bg-[rgba(0,0,0,0.7)] fixed z-[111111] flex flex-col justify-center items-center p-4 bottom-[0rem] md:w-[100%] md:h-[100%] lg:w-[100vw] lg:h-[100vh] lg:flex lg:flex-row lg:justify-center lg:items-center">
+          <div className=" flex flex-row justify-center items-center">
+            <div className="flex flex-col justify-center h-[25rem] w-[20rem] bg-[#F0FBFC] rounded-l-3xl relative sm:w-[30rem] sm:h-[30rem] sm:flex sm:justify-center sm:items-center lg:flex lg:flex-row lg:justify-center lg:items-center lg:w-[50rem] lg:h-[30rem]">
+              <div className="flex flex-col items-center justify-center lg:flex lg:flex-col lg:justify-center lg:items-center ">
                 <img
-                  src={FunderImg}
+                  src={imgUrl}
                   alt=""
-                  className="h-[15rem] w-[15rem] pl-5"
+                  className="h-[6rem] w-[100%] pl-5 sm:w-[10rem] sm:h-[10rem] lg:w-[30rem]"
                 />
-                <div className="w-full text-center pr-6">
-                  <h5 className="mb-0 font-bold text-xl mt-2">
-                    Mr.G.Ramaswamy
-                  </h5>
-                  <small className="font-bold text-sm">Founder</small>
+                <div className="w-full text-center sm:mb-5 sm:text-center">
+                  <h5 className=" font-bold text-xl">{name}</h5>
+                  <small className="font-bold text-sm">{post}</small>
                 </div>
               </div>
-              <div className="w-[60%] font-serif text-[16px] pr-5 ">
-                <p>
-                  Sri.G.Ramaswamy started his career as a marketing person in a
-                  small organization at Chennai. He gained experience in meeting
-                  customers especially the farming community. He understood the
-                  demand for electric motors – a prime mover for machinery, pump
-                  or any moving engineering product. He started an enterprise at
-                  Coimbatore, the home-town for manufacturing Electric motors,
-                  products that are used for generations. He was also honoured
-                  with Rashtriya Samman Award by the Govt. of India for being
-                  the highest tax payer to the government for three consecutive
-                  years.
-                </p>
+              <div className="h-[100%] font-serif text-[16px] overflow-y-scroll p-4 lg:text-[20px]">
+                <p className="w-[100%] p-4 lg:w-[100%] ">{popupContent}</p>
               </div>
-              <div className="absolute right-5 top-5 text-[1.5rem] cursor-pointer">
+              <div className="absolute right-1 top-1 text-[1.5rem] cursor-pointer">
                 <ImCancelCircle onClick={() => setIsOpen(false)} />
               </div>
             </div>
