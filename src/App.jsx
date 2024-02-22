@@ -18,18 +18,18 @@ function App() {
       {/* <div>
         <NavBarPage></NavBarPage>
       </div> */}
-      {/* <div>
+      <div>
         <ContactPage></ContactPage>
-      </div> */}
+      </div>
       {/* <div>
         <AboutCollage></AboutCollage>
       </div> */}
       {/* <div>
         <FooterPage></FooterPage>
       </div> */}
-      <div>
+      {/* <div>
         <ManagementPage></ManagementPage>
-      </div>
+      </div> */}
       {/* <div>
         <FounderDetails></FounderDetails>
       </div> */}
