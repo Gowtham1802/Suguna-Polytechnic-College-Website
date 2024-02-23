@@ -11,6 +11,7 @@ import TrusteeDetails from "./components/managementpage/trustee";
 import DirectorDetails from "./components/managementpage/director";
 import PrincipalDetails from "./components/managementpage/principal";
 import DeanDetails from "./components/managementpage/dean";
+import AluminiPage from "./components/aluminipage/alumini";
 
 function App() {
   return (
@@ -18,9 +19,9 @@ function App() {
       {/* <div>
         <NavBarPage></NavBarPage>
       </div> */}
-      <div>
+      {/* <div>
         <ContactPage></ContactPage>
-      </div>
+      </div> */}
       {/* <div>
         <AboutCollage></AboutCollage>
       </div> */}
@@ -48,6 +49,9 @@ function App() {
       {/* <div>
         <DeanDetails></DeanDetails>
       </div> */}
+      <div>
+        <AluminiPage></AluminiPage>
+      </div>
     </>
   );
 }
