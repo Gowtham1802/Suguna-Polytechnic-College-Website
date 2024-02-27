@@ -19,9 +19,9 @@ function App() {
       {/* <div>
         <NavBarPage></NavBarPage>
       </div> */}
-      {/* <div>
+      <div>
         <ContactPage></ContactPage>
-      </div> */}
+      </div>
       {/* <div>
         <AboutCollage></AboutCollage>
       </div> */}
@@ -49,9 +49,9 @@ function App() {
       {/* <div>
         <DeanDetails></DeanDetails>
       </div> */}
-      <div>
+      {/* <div>
         <AluminiPage></AluminiPage>
-      </div>
+      </div> */}
     </>
   );
 }

@@ -27,7 +27,7 @@ const ContactForm = () => {
             For Enquiry
           </h1>
         </div>
-        <div className="w-[30rem] px-[5%] bg-[#f8e4d2] py-6 mt-5 ">
+        <div className="w-[21rem] px-[5%] bg-[#f8e4d2] py-6 mt-5 lg:w-[30rem] xl:w-[36rem] xl:h-[40rem] xl:px-[5%] ">
           <div id="hubspot" className="text-center "></div>
         </div>
       </div>
