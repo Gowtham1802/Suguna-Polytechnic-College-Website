@@ -12,6 +12,7 @@ import DirectorDetails from "./components/managementpage/director";
 import PrincipalDetails from "./components/managementpage/principal";
 import DeanDetails from "./components/managementpage/dean";
 import AluminiPage from "./components/aluminipage/alumini";
+import ECE from "./components/departments/ECE";
 
 function App() {
   return (
@@ -19,9 +20,9 @@ function App() {
       {/* <div>
         <NavBarPage></NavBarPage>
       </div> */}
-      <div>
+      {/* <div>
         <ContactPage></ContactPage>
-      </div>
+      </div> */}
       {/* <div>
         <AboutCollage></AboutCollage>
       </div> */}
@@ -52,6 +53,9 @@ function App() {
       {/* <div>
         <AluminiPage></AluminiPage>
       </div> */}
+      <div>
+        <ECE></ECE>
+      </div>
     </>
   );
 }
